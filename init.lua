@@ -1,0 +1,2 @@
+require("dopezy")
+print("hello")
