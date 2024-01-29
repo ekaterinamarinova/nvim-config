@@ -12,7 +12,8 @@ return require('packer').startup(function(use)
 	}
 
 	-- use {"rose-pine/neovim", as = "rose-pine"}
-	use("rebelot/kanagawa.nvim")
+	-- use("rebelot/kanagawa.nvim")
+    use {"ellisonleao/gruvbox.nvim"}    
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use("theprimeagen/harpoon")
 	use("mbbill/undotree")
@@ -32,4 +33,23 @@ return require('packer').startup(function(use)
 			{'L3MON4D3/LuaSnip'},
 		}
 	}
+
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional
+        },
+    }
+    use('mikelue/vim-maven-plugin')
+    use 'neovim/nvim-lspconfig' 
+    use 'simrat39/rust-tools.nvim'
+
+    -- Useful completion sources:
+    use 'hrsh7th/cmp-nvim-lua'
+    use 'hrsh7th/cmp-nvim-lsp-signature-help'
+    use 'hrsh7th/cmp-vsnip'                             
+    use 'hrsh7th/cmp-path'                              
+    use 'hrsh7th/cmp-buffer'                            
+    use 'hrsh7th/vim-vsnip'  
+
 end)
