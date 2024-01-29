@@ -1,3 +1,2 @@
 require("dopezy.remap")
-print("hello from dopezy")
-
+require("dopezy.set")
