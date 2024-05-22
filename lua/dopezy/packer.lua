@@ -12,7 +12,8 @@ return require('packer').startup(function(use)
 	}
 
 	-- use {"rose-pine/neovim", as = "rose-pine"}
-	use("rebelot/kanagawa.nvim")
+	-- use("rebelot/kanagawa.nvim")
+    use {"ellisonleao/gruvbox.nvim"}    
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use("theprimeagen/harpoon")
 	use("mbbill/undotree")
