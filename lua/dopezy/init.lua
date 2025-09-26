@@ -1,3 +1,3 @@
-require("dopezy.remap")
-require("dopezy.set")
-require("dopezy.dgn")
+require("user.remap")
+require("user.set")
+require("user.dgn")
