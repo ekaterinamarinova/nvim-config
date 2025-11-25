@@ -11,3 +11,7 @@
 5. Enjoy
 
 ![nvim](resources/nvim.png)
+
+--
+
+![nvim2](resources/nvim2.png)
